@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qoute</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+    * {
+
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 200vh;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 25% 35% 35%;
+        max-width: 1200px;
+        min-height: 1100px;
+        background-color: white;
+        padding: 20px;
+        gap: 20px;
+    }
+
+
+    .column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0px;
+        border-left: 1px dotted black;
+        /* Add dotted border only on the left */
+        padding-left: 20px;
+        /* Optional: Add space between the image and the border */
+    }
+
+    .text {
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        /* remove any margins*/
+    }
+
+
+
+
+    blockquote {
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .copyright {
+        position: absolute;
+        top: 142%;
+        color: gray;
+
+    }
+
+    .year {
+        font-size: 12px;
+        text-align: left;
+        color: gray;
+        opacity: 20%;
+    }
+
+    .span {
+        font-size: 19px;
+        text-align: left;
+        color: gray;
+        opacity: 20%;
+    }
+
+    h4 {
+        position: absolute;
+        bottom: 5%;
+        font-size: 26px;
+        color: gray;
+        margin-left: 5px;
+        margin-bottom: -11px;
+        opacity: 20%;
+    }
+
+    footer {
+        margin-top: -203px;
+        text-align: left;
+        font-size: 12px;
+        color: gray;
+        justify-content: center;
+        position: absolute;
+        top: 142%;
+    }
+
+    .quote-author {
+        font-size: 20px;
+        text-align: left;
+        color: black;
+        margin-bottom: -81px;
+
+
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="column">
+
+
+            <div class="text">MARVIN</div>
+
+        </div>
+
+
+        <div class="column">
+
+            <a href="two.html"><img src="photos/20.jpg" alt="image" /></a>
+
+        </div>
+
+        <div class="column">
+
+            <div>
+                <h4>#73</h4>
+            </div>
+            <div class="quote-author">
+                “I'm the one that has to die when it’s time for me to die,
+                so let me live my life, the way I want
+                to.”<br>
+                <div class="span">
+
+                    <br><span>Jimi Hendrix</span>
+
+                </div>
+                <div class="year">1986</div>
+                <footer>
+                    copyright © Diana Ross
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
